@@ -2,8 +2,11 @@ import React from "react";
 import Table from "react-bootstrap/Table";
 import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
-export default function GetTodo() {
+
+export default function GetTodo(props) {
   const [data, setData] = useState([]);
+ 
+
 
   useEffect(() => {
     getapi();
@@ -32,13 +35,18 @@ export default function GetTodo() {
   }
   return (
     <div>
+      <h2> Today's Task</h2>
       <Table striped bordered hover size="sm" >
         <thead>
           <tr>
             <th>#</th>
             <th>Title</th>
+            <th>Date</th>
             <th>Task 1</th>
             <th>Task 2</th>
+            <th>Task 3</th>
+            <th>Task 4</th>
+            <th>Task 5</th>
             <th>Operation</th>
           </tr>
         </thead>
@@ -47,8 +55,12 @@ export default function GetTodo() {
             <tr key={i}>
               <td>{item.id}</td>
               <td>{item.title}</td>
+              <td>{item.date}</td>
               <td>{item.task1}</td>
               <td>{item.task2}</td>
+              <td>{item.task3}</td>
+              <td>{item.task4}</td>
+              <td>{item.task5}</td>
               <td>
                 <Button variant="danger" onClick={() => deleted(item.id)}>
                   Delete
@@ -58,6 +70,7 @@ export default function GetTodo() {
           ))}
         </tbody>
       </Table>
+
     </div>
   );
 }

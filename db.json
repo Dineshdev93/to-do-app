@@ -2,21 +2,12 @@
   "To-do": [
     {
       "title": "Library",
-      "task1": "Reading Economics from 10.00 am to 1pm",
-      "task2": "Reading History from 2.00 pm to 5pm",
-      "id": 2
-    },
-    {
-      "title": "Library",
-      "task1": "Reading Economics from 10.00 am to 1pm",
-      "task2": "Reading History from 2.00 pm to 5pm",
-      "id": 3
-    },
-    {
-      "title": "Library",
-      "task1": "Reading English from 10.00 am to 1pm\t",
-      "task2": "Reading Science from 10.00 am to 1pm\t",
-      "id": 4
+      "task1": "Go to CBEO Office at 10.00 am ",
+      "task2": "Collect Workbooks Hindi,English,Math",
+      "task3": "Load books in CBEO Container at 12.00 am",
+      "task4": "Go back to School till 1.00 pm",
+      "task5": "Back to home around 1.30 pm ",
+      "id": 1
     }
   ],
   "posts": [],

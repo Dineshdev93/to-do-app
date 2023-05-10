@@ -10,8 +10,15 @@
 .submit{
   margin-left: 14px;
 }
-.head{
+h2,h5{
   margin-left: 14px;
   color: darkcyan;
     font-family: monospace;
+}
+.time{
+  color: darkcyan;
+  font-family: cursive;
+  float: right;
+  margin-right: 33px;
+  text-shadow: 1px 1px 5px rgb(223, 144, 199);
 }
