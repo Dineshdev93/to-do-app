@@ -8,6 +8,16 @@
       "task4": "Go back to School till 1.00 pm",
       "task5": "Back to home around 1.30 pm ",
       "id": 1
+    },
+    {
+      "title": "Study",
+      "task1": "Think about new project",
+      "task2": "Get skills from google chrome",
+      "task3": "Implement skills in project",
+      "task4": "Create React app ",
+      "task5": "Learn new skills ",
+      "date": "2023-05-11",
+      "id": 2
     }
   ],
   "posts": [],
